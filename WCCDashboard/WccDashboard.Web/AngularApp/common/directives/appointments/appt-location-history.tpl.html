@@ -1,0 +1,14 @@
+﻿<div dw-loading="locHistory" dw-loading-options="{text: 'Loading ...', active:true}" class="widget">
+    <table class="fullWidthTable">
+        <tr>
+            <td><span class="titleLegend">Location History</span></td>
+            <td><span class="series1Legend">Opens</span></td>
+            <td><span class="series2Legend">Sent</span></td>
+        </tr>
+        <tr ng-repeat="item in apptLocationHistoryData" class="wmselector-nohover">
+            <td><span class="wm-heading">{{item.LocationType}}</span></td>
+            <td>{{item.TotalOpens}}</td>
+            <td>{{item.TotalSent}}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,24 @@
+﻿<div dw-loading="actHistory" dw-loading-options="{text: 'Loading ...', active:true}" class="widget">
+    <table class="fullWidthTable">
+        <tr>
+            <td><span class="titleLegend">Activity History</span></td>
+            <td><span class="series1Legend">Opens</span></td>
+            <td><span class="series2Legend dashed">Sent</span></td>
+        </tr>
+        <tr class="wmselector" ng-click="showCurrWeekData()" ng-class="{'selectedRow':displayMode === 'week'}">
+            <td><span class="wm-heading">Week</span></td>
+            <td>{{currWeek_opens}}</td>
+            <td>{{currWeek_sent}}</td>
+        </tr>
+        <tr class="wmselector" ng-click="showCurrMonthData()" ng-class="{'selectedRow':displayMode === 'month'}">
+            <td><span class="wm-heading">Month</span></td>
+            <td>{{currMonth_opens}}</td>
+            <td>{{currMonth_sent}}</td>
+        </tr>
+    </table>
+    <div class="row">
+        <div>
+            <nvd3 options="chartOptions" data="chartData" class="with-3d-shadow with-transitions"></nvd3>
+        </div>
+    </div>
+</div>

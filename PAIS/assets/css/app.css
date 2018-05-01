@@ -1,0 +1,434 @@
+.jumbotron {
+    border-radius: 0;
+    background-color: #47870E;
+    border-bottom: 9px solid #62675E;
+    color: white;
+    padding-bottom: 1em;
+}
+
+.alert {
+    border-radius: 0em;
+}
+
+.navbar-header {
+    display: inline-block;
+    margin-bottom: -0.3em
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: white;
+}
+
+.navbar-toggle {
+    margin-right: 0em;
+    margin-bottom: 0em;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #62675E;
+}
+
+.btnContainer {
+    padding-left: 0em;
+    padding-right: 0em;
+    width: 100%;
+}
+
+#wccLogo {
+    width: 100%;
+    height: 100%;
+}
+
+input.form-control {
+    border-radius: 0;
+    font-size: 1.3em;
+}
+
+.btn {
+    border-radius: 0;
+    background-color: #47870E;
+    border-color: #47870E;
+    margin-bottom: 5vh;
+}
+
+.btn:active, .btn:focus, .btn:visited, .btn:active:focus, .btn-primary:focus, .btn:hover {
+    background-color: #63AB23;
+    border-color: #63AB23;
+}
+
+.loginButton {
+    width: 100%;
+    height: 100%;
+    font-size: 1.75em;
+    margin-bottom: 15vh
+}
+
+.full {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.btnDisplay {
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: inline-block;
+}
+
+.btnAppt {
+    margin-bottom: 2vh;
+    background-color: #62675E;
+    border-color: #62675E;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btnCant {
+    font-size: 1.5em;
+    background-color: #47870E;
+}
+
+.btnUber {
+    background-color: #000000;
+    border-color: #000000;
+    font-size: 1.7em;
+    text-align: left;
+}
+
+.btnUber:active, .btnUber:focus, .btnUber:visited, .btnUber:active:focus, .btnUber-primary:focus, .btnUber:hover {
+    background-color: #62675E;
+    border-color: #62675E;
+}
+
+.contactUsSection {
+    float: right;
+    margin-right: 1.07em;
+    margin-bottom: 15px;
+    background-color: #47870E;
+}
+
+.contactUsTextBtn {
+    display: inline-block;
+    margin-bottom: 0px;
+    float: right;
+    padding: 0.5em;
+    padding-left: 0.1em;
+    color: white;
+    font-size: 1.4em;
+}
+
+.glyphicon-earphone {
+    color: white;
+    display: inline-block;
+    margin-top: 0.15em;
+    padding-left: 0.25em;
+}
+
+.gi-big {
+    font-size: 2.5em;
+}
+
+.navbar {
+    background-color: #47870E;
+    border-bottom: 9px solid #62675E;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.successText {
+    font-size: 1.3em;
+    justify-content: center;
+}
+
+.btnReschedule {
+    display: none;
+}
+
+ul#mediaLibraryUL {
+    list-style-type: none;
+    margin-top:10px;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+ul#mediaLibraryUL li {
+    border:1px solid #ccc;
+    margin-left:5px;
+    margin-top: -1px;
+    padding:5px 10px;
+
+    background-color:white;
+    font-weight:bold;
+}
+
+ul#mediaLibraryUL li i {
+    display:none;
+}
+
+ul#groupUL {
+    list-style-type: none;
+    margin-top:10px;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+ul#groupUL li {
+    border:1px solid #ccc;
+    margin-left:5px;
+    margin-top: -1px;
+    padding:5px 10px;
+
+    background-color:white;
+    font-weight:bold;
+
+}
+
+ul#groupUL li i {
+    display:none;
+}
+
+ul#groupUL li.userGroupItem:hover {
+    background-color:#da4f49;
+    color:white;
+}
+
+ul#groupUL li.userGroupItem:hover i {
+    display:inline-block;
+}
+
+ul#genreUL {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul#genreUL li {
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    margin-top: -1px;
+    padding: 5px 10px;
+
+    background-color: white;
+    font-weight: bold;
+
+}
+
+ul#genreUL li i{
+    display: none;
+}
+
+ul#genreUL li.nodeGenreItem:hover {
+    background-color: #da4f49;
+    color: white;
+}
+
+ul#genreUL li.nodeGenreItem:hover i {
+    display: inline-block;
+}
+
+ul#decadeUL {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul#decadeUL li {
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    margin-top: -1px;
+    padding: 5px 10px;
+
+    background-color: white;
+    font-weight: bold;
+
+}
+
+ul#decadeUL li i{
+    display: none;
+}
+
+ul#decadeUL li.nodeDecadeItem:hover {
+    background-color: #da4f49;
+    color: white;
+}
+
+ul#decadeUL li.nodeDecadeItem:hover i {
+    display: inline-block;
+}
+
+ul#influencedByUL {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul#influencedByUL li {
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    margin-top: -1px;
+    padding: 5px 10px;
+
+    background-color: white;
+    font-weight: bold;
+
+}
+
+ul#influencedByUL li i{
+    display: none;
+}
+
+ul#influencedByUL li.influencedByItem:hover {
+    background-color: #da4f49;
+    color: white;
+}
+
+ul#influencedByUL li.influencedByItem:hover i {
+    display: inline-block;
+}
+
+ul#influencedUL {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul#influencedUL li {
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    margin-top: -1px;
+    padding: 5px 10px;
+
+    background-color: white;
+    font-weight: bold;
+
+}
+
+ul#influencedUL li i{
+    display: none;
+}
+
+ul#influencedUL li.influencedItem:hover {
+    background-color: #da4f49;
+    color: white;
+}
+
+ul#influencedUL li.influencedItem:hover i {
+    display: inline-block;
+}
+
+ul#awardUL {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul#awardUL li {
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    margin-top: -1px;
+    padding: 5px 10px;
+
+    background-color: white;
+    font-weight: bold;
+
+}
+
+ul#awardUL li i {
+    display: none;
+}
+
+ul#awardUL li.nodeAwardItem:hover {
+    background-color: #da4f49;
+    color: white;
+}
+
+ul#awardUL li.nodeAwardItem:hover i {
+    display: inline-block;
+}
+
+label.control-label {
+    font-weight:normal;
+}
+
+label.label-required {
+    font-weight:bold;
+}
+
+.table-detail tr th {
+    text-align: right;
+}
+
+.formTable .form-group {
+    margin-bottom: 0;
+}
+
+.form-control {
+    height: auto;
+}
+
+.addMediaItem {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.addMediaItem:hover,span.addVideoItem:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.cueInputs {
+    text-align: center;
+}
+.cueInputs,.cueInputs input {
+    text-align: center;
+    padding-right: 0px
+}
+
+.ui-spinner-button {
+    display: inline-block;
+}
+
+span.addBarSongItem:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+tr.clickable-row {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+    .contactUsSection {
+        position: relative;
+        float: right;
+    }
+
+    #wccLogo {
+        height: 30%;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .jumbotron {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}

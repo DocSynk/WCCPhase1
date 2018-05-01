@@ -1,0 +1,317 @@
+﻿body {
+    font-family: 'Roboto', 'Roboto-Thin', 'Roboto Thin';
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+ 
+}
+
+.no-pad{padding:0px !important;}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+}
+
+/******************* BootStrap Styles Overriding - Start*******************/
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-inverse {
+    background-color: #6BAB3E;
+    border-color: #6BAB3E;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+    border-width: 0;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #6BAB3E;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.btn-primary,  .btn-primar:hover{
+    color: #ffffff;
+    background-color: #6BAB3E;
+    border-color: #6BAB3E;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #6BAB3E;
+    border-color: #6BAB3E;
+}
+
+.input-lg {
+    border-color: #6BAB3E;
+        display: inline;
+}
+
+.form-control:focus {
+  border-color: #6BAB3E;
+}
+/****************** *BootStrap Styles Overriding - End******************* /
+
+
+
+/****************** Site specific styles Begin*******************/
+
+.dashed {
+    stroke-dasharray: 5,5;
+}
+
+.logo {
+    width: 43px;
+    height: 42px;
+    float: left;    
+    margin: 0px auto;
+    position: relative;
+    top: 4px;
+
+}
+
+.wmselector, .wmselector-nohover {
+   height: 40px;
+}
+
+.wmselector:hover {
+    cursor: pointer;
+    background-color: #F5F9F3;
+}
+
+.wmselector-nohover:hover {
+    cursor: default;
+    background-color: #F5F9F3;
+}
+
+.wm-heading {
+  font-family:'Roboto-Regular', 'Roboto';
+  font-weight:normal;
+  font-size: 16px;
+}
+
+.selectedRow {
+    cursor: default;
+    background-color: #F5F9F3;
+}
+
+.searchBox {
+    width: 250px;
+    height: 46px;
+    font-family: 'Roboto-Medium Regular', 'Roboto-Medium';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #B2BCC6;
+    text-align: left;
+    line-height: 16px;
+    padding: 5px;
+    border: 1px solid #6BAB3E;
+}
+
+.titleLegend {
+    border-bottom:2px solid #ccc; 
+    font-weight:500;
+    font-size: 18px;
+    font-family: 'Roboto-Medium', 'Roboto Medium', 'Roboto';
+}
+
+.series1Legend {
+    color: #3C6DFF;
+    font-size: 16px;
+    font-weight:200;
+    border-bottom:2px solid #3366FF;
+    font-family: 'Roboto-Light', 'Roboto Light', 'Roboto';
+}
+
+.series2Legend {
+    color: #FF6600;
+    font-size: 16px;
+    font-weight:200;
+    font-family: 'Roboto-Light', 'Roboto Light', 'Roboto';
+    border-bottom:2px dashed #ff7f0e;
+}
+
+.fullWidthTable {
+    width : 100%
+}
+
+.register {
+    color: #6BAB3E;
+    font-size:20px;
+    font-weight:normal;
+    font-family: 'Roboto-Regular', 'Roboto'
+}
+.register:hover{text-decoration:none;color: #6BAB3E;}
+
+.hospital {
+    -moz-border-radius: 29px;
+    -webkit-border-radius: 29px;
+    border-radius: 29px;
+    -khtml-border-radius: 29px;
+    height:60px;
+    background-color: #EEEEEE;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 59px;
+	height: 12px; 
+    background-color: #fff;
+}
+
+.heading {
+    font-family:Roboto-Medium, "Roboto Medium", Roboto;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.heading-2 {
+    font-family:Roboto-Regular, Roboto;
+    font-size: 18px;
+    font-weight:400;
+}
+
+.title_logo{
+    top: 1px;
+    left: 10px;;
+    font-size: 28px;
+    font-family: Roboto-Thin, "Roboto Thin", Roboto;
+    font-weight: 200;
+}
+
+#custom-search-input{
+    padding: 0px;
+    
+    border-radius: 3px;
+    background-color: #fff;
+        margin-top: 10px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    font-size: 16px;
+    height:45px;
+    border: solid 1px #6BAB3E;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 0px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 0px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+    color: #fff;
+}
+
+#custom-search-input  .input-group-btn{
+    background-color: #6BAB3E;
+        border-radius: 0 6px 6px 0;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.padding-right-graph{padding-right:40px;}
+.padding-left-graph{padding-left:40px;}
+
+@media (min-width: 768px){
+    .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+    .col-centered {
+        display: inline;
+        float: none;
+        /* reset the text-align */
+        text-align: left;
+        /* inline-block space fix */
+        margin-right: -4px;
+    }
+}
+
+.widget {
+    padding: 15px 0px;
+}
+
+.top-buffer { padding-top:20px; }
+
+.delayFilter {
+    border: none;
+    color: #3C6DFF;
+    font-size: 16px;
+    font-weight:200;
+    padding: 0;
+    font-family: 'Roboto-Light', 'Roboto Light', 'Roboto';
+    text-decoration: underline;
+}
+
+.delayFilter:focus {
+   border:none!important;
+    outline:none!important;
+   box-shadow: none!important
+}
+
+
+@media (min-width: 900px) {
+    .wcc-container {
+        width: 80%;
+    }
+}
+@media (max-width: 767px) {
+ .padding-right-graph{padding:0px;}
+.padding-left-graph{padding:0px;}
+}
+
+/****************** Site specific styles End*******************/

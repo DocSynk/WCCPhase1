@@ -1,0 +1,21 @@
+﻿<div dw-loading="cabRequests" dw-loading-options="{text: 'Loading ...', active:true}" class="widget">
+    <table class="fullWidthTable">
+        <tr>
+            <td><span class="titleLegend">Cab Requests</span></td>
+            <td><span class="series1Legend">Hails</span></td>
+        </tr>
+        <tr class="wmselector" ng-click="showCurrWeekData()" ng-class="{'selectedRow':displayMode === 'week'}">
+            <td><span class="wm-heading">Week</span></td>
+            <td>{{currWeek_rides}}</td>
+        </tr>
+        <tr class="wmselector" ng-click="showCurrMonthData()" ng-class="{'selectedRow':displayMode === 'month'}">
+            <td><span class="wm-heading">Month</span></td>
+            <td>{{currMonth_rides}}</td>
+        </tr>
+    </table>
+    <div class="row">
+        <div>
+            <nvd3 options="chartOptions" data="chartData" class="with-3d-shadow with-transitions"></nvd3>
+        </div>
+    </div>
+</div>

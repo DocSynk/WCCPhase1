@@ -1,0 +1,28 @@
+﻿<div dw-loading="aptDelays" dw-loading-options="{text: 'Loading ...', active:true}" class="widget">
+    <table class="fullWidthTable">
+        <tr>
+            <td>
+                <span class="titleLegend">Delays</span>
+            </td>
+            <td>
+                <!--<span class="series1Legend">Days</span>-->
+                <select ng-model="delayFilter" ng-change="filterChanged()" class="delayFilter">
+                    <option ng-repeat="item in delayFilters" ng-selected="delayFilter == item.Code" value="{{item.Code}}">{{item.Description}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="wmselector" ng-click="showCurrWeekData()" ng-class="{'selectedRow':displayMode === 'week'}">
+            <td><span class="wm-heading">Week</span></td>
+            <td>{{currWeek_delays}}</td>
+        </tr>
+        <tr class="wmselector" ng-click="showCurrMonthData()" ng-class="{'selectedRow':displayMode === 'month'}">
+            <td><span class="wm-heading">Month</span></td>
+            <td>{{currMonth_delays}}</td>
+        </tr>
+    </table>
+    <div class="row">
+        <div>
+            <nvd3 options="chartOptions" data="chartData" class="with-3d-shadow with-transitions"></nvd3>
+        </div>
+    </div>
+</div>

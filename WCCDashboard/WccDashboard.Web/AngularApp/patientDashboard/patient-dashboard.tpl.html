@@ -1,0 +1,38 @@
+﻿<div class="container top-buffer">
+    <div class="col-md-6 padding-right-graph">
+        <table cellpadding="5" cellspacing="5" class="fullWidthTable hospital">
+            <tr>
+                <td class="col-sm-1 circle"><img src="content/images/patient.png" /></td>
+                <td>
+                    <span class="heading">
+                        {{patient.FirstName}} {{patient.LastName}}
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+ 
+<div class="container top-buffer">
+    <div class="col-md-6 col-sm-6 col-xs-12 padding-right-graph">
+        <appt-noshows-cancels patient-id="patient.AccountId"></appt-noshows-cancels>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 padding-left-graph">
+        <appt-delays patient-id="patient.AccountId"></appt-delays>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-6 col-sm-6 col-xs-12 padding-right-graph">
+        <cab-requests patient-id="patient.AccountId"></cab-requests>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 padding-left-graph">
+        <activity-history patient-id="patient.AccountId"></activity-history>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-6 col-sm-6 col-xs-12 padding-right-graph">
+        <appt-location-history patient-id="patient.AccountId"></appt-location-history>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 padding-left-graph">
+    </div>
+</div>
